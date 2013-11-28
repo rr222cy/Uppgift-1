@@ -29,7 +29,7 @@ namespace Tests
         public void Equilateral_DiffrentValues()
         {
             Triangle myTriangle = new Triangle(123.5, 134.1, 1223.1);
-            Assert.IsTrue(myTriangle.isEquilateral());
+            Assert.IsFalse(myTriangle.isEquilateral());
         }
 
         [TestMethod()]
@@ -37,7 +37,7 @@ namespace Tests
         public void Equilateral_ValueOfZero()
         {
             Triangle myTriangle = new Triangle(0, 0, 0);
-            Assert.IsTrue(myTriangle.isEquilateral());
+            Assert.IsFalse(myTriangle.isEquilateral());
         }
 
         [TestMethod()]
@@ -45,7 +45,7 @@ namespace Tests
         public void Equilateral_NegativeValues()
         {
             Triangle myTriangle = new Triangle(-123.5, -134.1, -1223.1);
-            Assert.IsTrue(myTriangle.isEquilateral());
+            Assert.IsFalse(myTriangle.isEquilateral());
         }
 
         [TestMethod()]
@@ -53,7 +53,7 @@ namespace Tests
         public void Isosceles_Same()
         {
             Triangle myTriangle = new Triangle(100, 100, 100);
-            Assert.IsTrue(myTriangle.isIsosceles());
+            Assert.IsFalse(myTriangle.isIsosceles());
         }
 
         [TestMethod()]
@@ -61,7 +61,7 @@ namespace Tests
         public void Isosceles_DiffrentValues()
         {
             Triangle myTriangle = new Triangle(136, 258, 124);
-            Assert.IsTrue(myTriangle.isIsosceles());
+            Assert.IsFalse(myTriangle.isIsosceles());
         }
 
         // Testar om korrekta värden för en likbent triangel fungerar
@@ -77,7 +77,7 @@ namespace Tests
         public void Isosceles_ValueOfZero()
         {
             Triangle myTriangle = new Triangle(0, 0, 0);
-            Assert.IsTrue(myTriangle.isIsosceles());
+            Assert.IsFalse(myTriangle.isIsosceles());
         }
 
         [TestMethod()]
@@ -85,7 +85,7 @@ namespace Tests
         public void Scalene_ValueOfZero()
         {
             Triangle myTriangle = new Triangle(0, 0, 0);
-            Assert.IsTrue(myTriangle.isScalene());
+            Assert.IsFalse(myTriangle.isScalene());
         }
 
         [TestMethod()]
@@ -93,7 +93,7 @@ namespace Tests
         public void Scalene_NegativeValues()
         {
             Triangle myTriangle = new Triangle(-16, -14, -12);
-            Assert.IsTrue(myTriangle.isScalene());
+            Assert.IsFalse(myTriangle.isScalene());
         }
 
         [TestMethod()]
