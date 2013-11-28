@@ -89,6 +89,14 @@ namespace Tests
         }
 
         [TestMethod()]
+        // Testar om negativa värden ger triangel som inte har någon sida lik den andra
+        public void Scalene_NegativeValues()
+        {
+            Triangle myTriangle = new Triangle(-16, -14, -12);
+            Assert.IsTrue(myTriangle.isScalene());
+        }
+
+        [TestMethod()]
         // Testar om korrekta värden ger triangel som inte har någon sida lik den andra
         public void Scalene_AccurateValues()
         {
