@@ -15,7 +15,6 @@ namespace Tests
             Point myPoints = new Point(1, 1);
         }
 
-
         [TestMethod()]
         // Testar om lika/jämna värden ger liksidig triangel
         public void Equilateral_SameValues()
@@ -132,11 +131,12 @@ namespace Tests
         // +5 på x-axeln och +5 på y-axeln.
         public void TriangleConstructorPoints()
         {
-            Point cordinateOne = new Point(0, 0);
+            Point cordinateOne = new Point(-5, 0);
             Point cordinateTwo = new Point(0, 5);
-            Point cordinateThree = new Point(0, 5);
+            Point cordinateThree = new Point(5, 0);
 
             Triangle cordinateTriangle = new Triangle(cordinateOne, cordinateTwo, cordinateThree);
+            Assert.IsFalse(cordinateTriangle.isIsosceles());
         }
 
         // Gör här samma sak som ovan, men skapar en array istället för att initiera konstruktorn
