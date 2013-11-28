@@ -1,0 +1,14 @@
+C:\Users\Robert Roos\documents\visual studio 2013\Projects\TriangleChecker\TriangleCheckerTests\bin\Debug\TriangleCheckerTests.dll
+C:\Users\Robert Roos\documents\visual studio 2013\Projects\TriangleChecker\TriangleCheckerTests\bin\Debug\TriangleCheckerTests.pdb
+C:\Users\Robert Roos\documents\visual studio 2013\Projects\TriangleChecker\TriangleCheckerTests\bin\Debug\TriangleChecker.exe
+C:\Users\Robert Roos\documents\visual studio 2013\Projects\TriangleChecker\TriangleCheckerTests\bin\Debug\TriangleChecker.pdb
+C:\Users\Robert Roos\documents\visual studio 2013\Projects\TriangleChecker\TriangleCheckerTests\obj\Debug\TriangleCheckerTests.csprojResolveAssemblyReference.cache
+C:\Users\Robert Roos\documents\visual studio 2013\Projects\TriangleChecker\TriangleCheckerTests\obj\Debug\TriangleCheckerTests.dll
+C:\Users\Robert Roos\documents\visual studio 2013\Projects\TriangleChecker\TriangleCheckerTests\obj\Debug\TriangleCheckerTests.pdb
+C:\Users\Robert Roos\Desktop\TriangleChecker\TriangleCheckerTests\obj\Debug\TriangleCheckerTests.csprojResolveAssemblyReference.cache
+C:\Users\Robert Roos\Desktop\TriangleChecker\TriangleCheckerTests\obj\Debug\TriangleCheckerTests.dll
+C:\Users\Robert Roos\Desktop\TriangleChecker\TriangleCheckerTests\obj\Debug\TriangleCheckerTests.pdb
+C:\Users\Robert Roos\Desktop\TriangleChecker\TriangleCheckerTests\bin\Debug\TriangleCheckerTests.dll
+C:\Users\Robert Roos\Desktop\TriangleChecker\TriangleCheckerTests\bin\Debug\TriangleCheckerTests.pdb
+C:\Users\Robert Roos\Desktop\TriangleChecker\TriangleCheckerTests\bin\Debug\TriangleChecker.exe
+C:\Users\Robert Roos\Desktop\TriangleChecker\TriangleCheckerTests\bin\Debug\TriangleChecker.pdb
