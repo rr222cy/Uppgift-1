@@ -10,3 +10,9 @@ C:\Users\Robert Roos\Desktop\TriangleChecker\TriangleChecker\obj\Debug\TriangleC
 C:\Users\Robert Roos\Desktop\TriangleChecker\TriangleChecker\bin\Debug\TriangleChecker.exe
 C:\Users\Robert Roos\Desktop\TriangleChecker\TriangleChecker\bin\Debug\TriangleChecker.pdb
 C:\Users\Robert Roos\Desktop\TriangleChecker\TriangleChecker\obj\Debug\TriangleChecker.csprojResolveAssemblyReference.cache
+C:\Users\Robert Roos\Documents\GitHub\Uppgift-1\TriangleChecker\TriangleChecker\bin\Debug\TriangleChecker.exe.config
+C:\Users\Robert Roos\Documents\GitHub\Uppgift-1\TriangleChecker\TriangleChecker\obj\Debug\TriangleChecker.exe
+C:\Users\Robert Roos\Documents\GitHub\Uppgift-1\TriangleChecker\TriangleChecker\obj\Debug\TriangleChecker.pdb
+C:\Users\Robert Roos\Documents\GitHub\Uppgift-1\TriangleChecker\TriangleChecker\bin\Debug\TriangleChecker.exe
+C:\Users\Robert Roos\Documents\GitHub\Uppgift-1\TriangleChecker\TriangleChecker\bin\Debug\TriangleChecker.pdb
+C:\Users\Robert Roos\Documents\GitHub\Uppgift-1\TriangleChecker\TriangleChecker\obj\Debug\TriangleChecker.csprojResolveAssemblyReference.cache

@@ -12,3 +12,10 @@ C:\Users\Robert Roos\Desktop\TriangleChecker\TriangleCheckerTests\bin\Debug\Tria
 C:\Users\Robert Roos\Desktop\TriangleChecker\TriangleCheckerTests\bin\Debug\TriangleCheckerTests.pdb
 C:\Users\Robert Roos\Desktop\TriangleChecker\TriangleCheckerTests\bin\Debug\TriangleChecker.exe
 C:\Users\Robert Roos\Desktop\TriangleChecker\TriangleCheckerTests\bin\Debug\TriangleChecker.pdb
+C:\Users\Robert Roos\Documents\GitHub\Uppgift-1\TriangleChecker\TriangleCheckerTests\bin\Debug\TriangleCheckerTests.dll
+C:\Users\Robert Roos\Documents\GitHub\Uppgift-1\TriangleChecker\TriangleCheckerTests\bin\Debug\TriangleCheckerTests.pdb
+C:\Users\Robert Roos\Documents\GitHub\Uppgift-1\TriangleChecker\TriangleCheckerTests\bin\Debug\TriangleChecker.exe
+C:\Users\Robert Roos\Documents\GitHub\Uppgift-1\TriangleChecker\TriangleCheckerTests\bin\Debug\TriangleChecker.pdb
+C:\Users\Robert Roos\Documents\GitHub\Uppgift-1\TriangleChecker\TriangleCheckerTests\obj\Debug\TriangleCheckerTests.csprojResolveAssemblyReference.cache
+C:\Users\Robert Roos\Documents\GitHub\Uppgift-1\TriangleChecker\TriangleCheckerTests\obj\Debug\TriangleCheckerTests.dll
+C:\Users\Robert Roos\Documents\GitHub\Uppgift-1\TriangleChecker\TriangleCheckerTests\obj\Debug\TriangleCheckerTests.pdb

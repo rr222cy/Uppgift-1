@@ -117,7 +117,7 @@ namespace Tests
         }
 
         [TestMethod()]
-
+        [ExpectedException(typeof(ArgumentException))]
         public void TriangleConstructorTwoValues()
         {
             // Testar att skapa en triangel genom arryay och fel antal värden
@@ -127,8 +127,7 @@ namespace Tests
         }
 
         [TestMethod()]
-        // Här testar jag att rita ut en triangel genom ett kordinatsystem. Utgår från 0 och sedan
-        // +5 på x-axeln och +5 på y-axeln.
+        // Här testar jag att rita ut en triangel genom ett kordinatsystem.
         public void TriangleConstructorPoints()
         {
             Point cordinateOne = new Point(-5, 0);
@@ -136,7 +135,7 @@ namespace Tests
             Point cordinateThree = new Point(5, 0);
 
             Triangle cordinateTriangle = new Triangle(cordinateOne, cordinateTwo, cordinateThree);
-            Assert.IsFalse(cordinateTriangle.isIsosceles());
+            Assert.IsFalse(cordinateTriangle.isScalene());
         }
 
         // Gör här samma sak som ovan, men skapar en array istället för att initiera konstruktorn
@@ -155,6 +154,7 @@ namespace Tests
 
         // Gör här samma sak igen, fast med 2 värden. Förväntat resultat är att det blir fel.
         [TestMethod()]
+        [ExpectedException(typeof(ArgumentException))]
         public void TriangleConstructorPointsArrayTwoValues()
         {
             Point cordinateOne = new Point(0, 0);
@@ -163,6 +163,7 @@ namespace Tests
             Triangle cordinateTriangle = new Triangle(cordinates);
             Assert.IsFalse(cordinates.Length != 3);
         }
+
 
     }
 }
