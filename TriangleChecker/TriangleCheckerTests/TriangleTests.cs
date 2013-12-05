@@ -32,6 +32,7 @@ namespace Tests
         }
 
         [TestMethod()]
+        [ExpectedException(typeof(ArgumentException))]
         // Testar om nollvärden ger liksidig triangel
         public void Equilateral_ValueOfZero()
         {
@@ -88,6 +89,7 @@ namespace Tests
         }
 
         [TestMethod()]
+        [ExpectedException(typeof(ArgumentException))]
         // Testar om negativa värden ger triangel som inte har någon sida lik den andra
         public void Scalene_NegativeValues()
         {
