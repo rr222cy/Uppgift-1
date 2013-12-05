@@ -37,7 +37,8 @@ namespace Tests
         public void Equilateral_ValueOfZero()
         {
             Triangle myTriangle = new Triangle(0, 0, 0);
-            Assert.IsFalse(myTriangle.isEquilateral());
+            
+            Assert.Fail("Nollvärden accepteras, vilket ej är korrekt!");
         }
 
         [TestMethod()]
@@ -94,7 +95,7 @@ namespace Tests
         public void Scalene_NegativeValues()
         {
             Triangle myTriangle = new Triangle(-16, -14, -12);
-            Assert.IsFalse(myTriangle.isScalene());
+            Assert.Fail("När vi inte arbetar med points, skall ej negativa värden accepteras!");
         }
 
         [TestMethod()]
@@ -119,13 +120,14 @@ namespace Tests
         }
 
         [TestMethod()]
-        [ExpectedException(typeof(ArgumentException))]
+        [ExpectedException(typeof(IndexOutOfRangeException))]
         public void TriangleConstructorTwoValues()
         {
             // Testar att skapa en triangel genom arryay och fel antal värden
             double[] triangleValuesWrong = { 41.5, 15.5 };
             Triangle myTriangle = new Triangle(triangleValuesWrong);
-            Assert.IsFalse(triangleValuesWrong[0] == 41.5 && triangleValuesWrong[1] == 15.5);
+            //Assert.IsFalse(triangleValuesWrong[0] == 41.5 && triangleValuesWrong[1] == 15.5);
+            Assert.Fail("Felaktigt antal värden kan matas in och accepteras!");
         }
 
         [TestMethod()]
@@ -156,7 +158,7 @@ namespace Tests
 
         // Gör här samma sak igen, fast med 2 värden. Förväntat resultat är att det blir fel.
         [TestMethod()]
-        [ExpectedException(typeof(ArgumentException))]
+        [ExpectedException(typeof(IndexOutOfRangeException))]
         public void TriangleConstructorPointsArrayTwoValues()
         {
             Point cordinateOne = new Point(0, 0);
